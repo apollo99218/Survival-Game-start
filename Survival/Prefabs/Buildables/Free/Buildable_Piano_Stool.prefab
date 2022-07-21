@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4042410698184469630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4042410698184175710}
+  - component: {fileID: 6984264855086607808}
+  - component: {fileID: 5585479164887996171}
+  - component: {fileID: 7153852621539848925}
+  - component: {fileID: 4503803711979055212}
+  - component: {fileID: 6676839634844658148}
+  m_Layer: 13
+  m_Name: Buildable_Piano_Stool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042410698184175710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.94127, y: 0.00000011920929, z: 6.528007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4069741806203712694}
+  - {fileID: 4069741806203712688}
+  - {fileID: 3206025507668783203}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6984264855086607808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!208 &5585479164887996171
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.25, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.25, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &7153852621539848925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3efeadd7518ae848a8425d1b90e5202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Info: {fileID: 11400000, guid: ef492296ec340064f83a5d47c891676d, type: 2}
+--- !u!114 &4503803711979055212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600ba125f4353264c9b58154a1ee73cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlaceableId: -1588183
+  m_PlaceableName: Piano Stool
+  m_PlaceableDescription: Used to sit at the Piano.
+  m_PlaceableIcon: {fileID: 21300000, guid: a98c14406251d7f4cacbdc59fe987518, type: 3}
+  m_VerticalOffset: 0
+  m_PlaceOnBuildables: 1
+  m_BoundsGroundOffset: 0.1
+  m_BoundsScale: 1
+  m_RawLocalBounds:
+    m_Center: {x: 0, y: 0.25259247, z: 0}
+    m_Extent: {x: 0.18894958, y: 0.25259247, z: 0.18895006}
+  m_LocalBounds:
+    m_Center: {x: 0, y: 0.27785173, z: 0}
+    m_Extent: {x: 0.18894958, y: 0.22733323, z: 0.18895006}
+  m_PlacementAudio:
+    m_Clips:
+      m_Array:
+      - {fileID: 8300000, guid: 5dfcedb5c1bc3384f87178b5588bbffd, type: 3}
+      - {fileID: 8300000, guid: b9b67560768c83f448ceffe2f031626d, type: 3}
+      - {fileID: 8300000, guid: 91f33d29aacf28540840d6ded314ff7f, type: 3}
+    m_Volume: 0.35
+    m_Pitch: 1
+    m_VolumeJitter: 0.05
+    m_PitchJitter: 0.05
+  m_PlacementFX: {fileID: 0}
+  m_Stability:
+    CheckStability: 0
+    Mask:
+      serializedVersion: 2
+      m_Bits: 0
+    ShowBoxes: 0
+    Boxes: []
+  m_TerrainCollision:
+    CheckTerrainCollision: 0
+    ShowBounds: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+  m_IgnoredColliders: []
+  m_IgnoredRenderers: []
+  m_BuildRequirements:
+  - m_BuildMaterial:
+      m_Value: 7014706
+    m_RequiredAmount: 1
+  m_BuildableType: 0
+  m_RequiresSockets: 0
+  m_NeededSpace: 0
+  m_SpacesToOccupy: 0
+  m_MaterialChanger: {fileID: 7153852621539848925}
+  m_BuildAudio:
+    m_Clips:
+      m_Array:
+      - {fileID: 8300000, guid: e21ff6a77a4ed3046a1bc216ba464ed5, type: 3}
+    m_Volume: 0.5
+    m_Pitch: 1
+    m_VolumeJitter: 0.05
+    m_PitchJitter: 0.05
+  m_BuildFX: {fileID: 5370509597048742536, guid: 60e831dc2eea4f340b3b75d961fe164e, type: 3}
+--- !u!114 &6676839634844658148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042410698184469630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6c7171d5f387b4d8b99f0499913d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Surface: {fileID: 11400000, guid: 0bb4bda7965bf174f94cab89cf1cc127, type: 2}
+--- !u!1 &4069741806203676816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4069741806203712688}
+  - component: {fileID: 4069741806204515474}
+  - component: {fileID: 4069741806205613650}
+  m_Layer: 13
+  m_Name: Crate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4069741806203712688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4042410698184175710}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4069741806204515474
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676816}
+  m_Mesh: {fileID: 4300000, guid: 5b8e32e7cee509e438772e5bfcbb307c, type: 3}
+--- !u!23 &4069741806205613650
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676816}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f4f07dd032c1a4349ac0df1efaf6a021, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4069741806203676822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4069741806203712694}
+  - component: {fileID: 4069741806204515472}
+  - component: {fileID: 4069741806205613648}
+  m_Layer: 13
+  m_Name: Crate_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4069741806203712694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676822}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.446, z: 0.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4042410698184175710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4069741806204515472
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676822}
+  m_Mesh: {fileID: 4300002, guid: 5b8e32e7cee509e438772e5bfcbb307c, type: 3}
+--- !u!23 &4069741806205613648
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069741806203676822}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f4f07dd032c1a4349ac0df1efaf6a021, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &5208307098771725812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4042410698184175710}
+    m_Modifications:
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855692
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030578032507828013, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+      propertyPath: m_Name
+      value: PianoStool
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+--- !u!4 &3206025507668783203 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7221953563522461079, guid: 60c23f2a7aa817f4eafd35eead84fa4c, type: 3}
+  m_PrefabInstance: {fileID: 5208307098771725812}
+  m_PrefabAsset: {fileID: 0}

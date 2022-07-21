@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3356864223901096298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3793576780995870263}
+  - component: {fileID: 4525599014657119337}
+  - component: {fileID: 3464125757910025572}
+  - component: {fileID: 9064319392264944438}
+  - component: {fileID: 2050605149928850585}
+  - component: {fileID: 4297589416040493583}
+  - component: {fileID: 9189542005560297521}
+  - component: {fileID: 7834477613725395171}
+  - component: {fileID: 4335894233744188758}
+  m_Layer: 13
+  m_Name: Fence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3793576780995870263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.9105, y: 0, z: -3.2299194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4525599014657119337
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Mesh: {fileID: 4596239184023814631, guid: 850cfbdde5513be4f94ef03a37caf3c9, type: 3}
+--- !u!23 &3464125757910025572
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 097dc707840b04541a7e5bedf146daef, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &9064319392264944438
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.18098164, y: 0.73162293, z: -0.015636854}
+  m_Size: 2.5985165
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05175836
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3464125757910025572}
+  m_Enabled: 1
+--- !u!64 &2050605149928850585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4596239184023814631, guid: 850cfbdde5513be4f94ef03a37caf3c9, type: 3}
+--- !u!114 &4297589416040493583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3efeadd7518ae848a8425d1b90e5202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Info: {fileID: 11400000, guid: f0d5a84fc04446243808ece9ac28da18, type: 2}
+--- !u!208 &9189542005560297521
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.275, y: 1.595, z: 0.21300001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.18, y: 0.75, z: -0.002}
+  m_TimeToStationary: 0.5
+--- !u!114 &7834477613725395171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6c7171d5f387b4d8b99f0499913d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Surface: {fileID: 11400000, guid: 0bb4bda7965bf174f94cab89cf1cc127, type: 2}
+--- !u!114 &4335894233744188758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356864223901096298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600ba125f4353264c9b58154a1ee73cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlaceableId: -7995385
+  m_PlaceableName: Wooden Fence
+  m_PlaceableDescription: 
+  m_PlaceableIcon: {fileID: 21300000, guid: 3204f61b45c242d409ac969540bb30e7, type: 3}
+  m_VerticalOffset: 0
+  m_PlaceOnBuildables: 0
+  m_BoundsGroundOffset: 0.9
+  m_BoundsScale: 1
+  m_RawLocalBounds:
+    m_Center: {x: -0.18098164, y: 0.73162293, z: -0.01563692}
+    m_Extent: {x: 1.2992582, y: 0.8058853, z: 0.066376686}
+  m_LocalBounds:
+    m_Center: {x: -0.18098164, y: 1.4569197, z: -0.01563692}
+    m_Extent: {x: 1.2992582, y: 0.08058858, z: 0.066376686}
+  m_PlacementAudio:
+    m_Clips:
+      m_Array:
+      - {fileID: 8300000, guid: 5dfcedb5c1bc3384f87178b5588bbffd, type: 3}
+      - {fileID: 8300000, guid: b9b67560768c83f448ceffe2f031626d, type: 3}
+      - {fileID: 8300000, guid: 91f33d29aacf28540840d6ded314ff7f, type: 3}
+    m_Volume: 0.5
+    m_Pitch: 1
+    m_VolumeJitter: 0.05
+    m_PitchJitter: 0.05
+  m_PlacementFX: {fileID: 0}
+  m_Stability:
+    CheckStability: 0
+    Mask:
+      serializedVersion: 2
+      m_Bits: 0
+    ShowBoxes: 0
+    Boxes: []
+  m_TerrainCollision:
+    CheckTerrainCollision: 1
+    ShowBounds: 0
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+  m_IgnoredColliders: []
+  m_IgnoredRenderers: []
+  m_BuildRequirements:
+  - m_BuildMaterial:
+      m_Value: 7014706
+    m_RequiredAmount: 1
+  m_BuildableType: 0
+  m_RequiresSockets: 0
+  m_NeededSpace: 1
+  m_SpacesToOccupy: 33
+  m_MaterialChanger: {fileID: 4297589416040493583}
+  m_BuildAudio:
+    m_Clips:
+      m_Array: []
+    m_Volume: 0.65
+    m_Pitch: 1
+    m_VolumeJitter: 0.1
+    m_PitchJitter: 0.1
+  m_BuildFX: {fileID: 0}

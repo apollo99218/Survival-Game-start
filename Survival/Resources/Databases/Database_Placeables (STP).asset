@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1099d62401dfffd42a5d5236ab7ffc6e, type: 3}
+  m_Name: Database_Placeables (STP)
+  m_EditorClassIdentifier: 
+  m_PlaceableCategories:
+  - Name: Fire
+    Placeables:
+    - {fileID: 2220883585905090366, guid: 0c5686694d0ea794c8fd046871ed506c, type: 3}
+    - {fileID: -142367877459773696, guid: 89d2d99518751b240b52af3b8965f127, type: 3}
+    - {fileID: 4981417861598259306, guid: bdcc5ca5f7ba6ff4c985b403c7aceade, type: 3}
+    - {fileID: 4101642710238277514, guid: 8a2fa33aa0339f6468f5a607d401efe1, type: 3}
+  - Name: Workstation
+    Placeables:
+    - {fileID: 7428100838116654240, guid: 6c0a26e110d18794999d58f470f77bd5, type: 3}
+    - {fileID: 4503803711979055212, guid: 7796264def1eeaa4a9a008fc74109d46, type: 3}
+    - {fileID: 4503803711979055212, guid: 89680aa12e9f7644e82c9668c232c27f, type: 3}
+    - {fileID: 7515267354431095584, guid: f26ffe236510ad645a8863a4d98f6f96, type: 3}
+    - {fileID: 7515267354431095584, guid: b80bb2f8336eb5448aa39dd685b2a1fe, type: 3}
+    - {fileID: 7515267354431095584, guid: 386243a4a126e6842abaccc69be88744, type: 3}
+  - Name: Storage
+    Placeables:
+    - {fileID: 7073008599214131088, guid: 68e95bb250ca81849a7f00d8991dd002, type: 3}
+    - {fileID: 2523551679375373716, guid: c895435b5f449e149a7949a697643127, type: 3}
+    - {fileID: 6148227225162910119, guid: b90c402ca15002c42af97951c36528b1, type: 3}
+  - Name: Shelter
+    Placeables:
+    - {fileID: -3725189722714725408, guid: 6583b44d70c8a294492567b92469a854, type: 3}
+    - {fileID: 3290199268608654513, guid: 9380110c7b3af5a459ca9e04c214edde, type: 3}
+    - {fileID: 4887738344851474867, guid: 349c213acae7bc442856172c3ae95e08, type: 3}
+  - Name: Custom Building
+    Placeables:
+    - {fileID: 1726788975399570431, guid: e3be5ae0c63ff0a4998524f623ad94cb, type: 3}
+    - {fileID: 2403333111402489725, guid: eb02b14933406bc48ba0b1fa734e53bc, type: 3}
+    - {fileID: 2665911454311396636, guid: 7a91cf7d1becd6b4fb95da2c98f4064e, type: 3}
+    - {fileID: 1713395933759687582, guid: a642f7dcdd8c2a54caa8914579a08ee5, type: 3}
+    - {fileID: 7676918943332812006, guid: 979920c323a82e24c963a61240c26f2d, type: 3}
+    - {fileID: 5496218046445309410, guid: 770e8f42748063840abab521c73d5ec6, type: 3}
+  - Name: Premade Building
+    Placeables:
+    - {fileID: 986939092586344374, guid: d3361ba9255612844adab003ed2ff629, type: 3}
+    - {fileID: 7426057173479979835, guid: 4cf7698af3d81174f8107889cc63bd8d, type: 3}
+    - {fileID: -8049134831892354414, guid: f3feb27b311f5c94ab56325f5043f16d, type: 3}
+    - {fileID: 6522282219921461795, guid: db6dc783da76fe142abd69383a59b59c, type: 3}
+  - Name: Farming
+    Placeables:
+    - {fileID: 7398752819127170577, guid: 24f208a5fe8480941b5f9face9b6b8a6, type: 3}
+  - Name: Security
+    Placeables: []
+  m_Structure: {fileID: 4265423152161599560, guid: d836465da72738042b29021e343f3bb7, type: 3}
+  m_PlacementAllowedMaterial: {fileID: 2100000, guid: 687cd83d3624def41bfb53c3569288c8, type: 2}
+  m_PlacementDeniedMaterial: {fileID: 2100000, guid: f5257ae3c970fc948beb0a2a3e56af86, type: 2}
+  m_FreePlacementMask:
+    serializedVersion: 2
+    m_Bits: 286721
+  m_EntityMask:
+    serializedVersion: 2
+    m_Bits: 131072
